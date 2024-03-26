@@ -7,7 +7,6 @@ import 'package:get/get.dart';
 import '../colors.dart';
 import '../widget/color_changing_container.dart';
 import '../AddVehicule.dart';
-import '/User/dashboard.dart';
 
 enum Type {
   car,
@@ -59,7 +58,7 @@ class _HomeScreenState extends State<HomeScreen> {
                            TextButton(
                   onPressed: () {
                     // Navigate to profile page when Skip button is clicked
-                    Get.to(Dashboard());
+                    Get.to(());
                   },
                   child: const Text(
                     'Skip for now',
