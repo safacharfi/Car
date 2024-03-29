@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'User/Car/screens/home-screen.dart';
-import 'User/Car/screens/parking_screen.dart';
 import '/User/Car/VehiculeLinking.dart'; // Corrected the import here
 import 'package:provider/provider.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
 
 
 void main() {
@@ -29,7 +30,6 @@ class ParkieApp extends StatelessWidget {
             debugShowCheckedModeBanner: false,
             home: HomeScreen (),
             routes: {
-              ParkingScreen.id: (context) => const ParkingScreen(),
             },
           );
         },

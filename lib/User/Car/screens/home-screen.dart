@@ -6,7 +6,7 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart';
 import '../colors.dart';
 import '../widget/color_changing_container.dart';
-import '../AddVehicule.dart';
+import '/User/Car/add.dart';
 
 enum Type {
   car,
@@ -199,7 +199,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           child: Center(
                             child: TextButton(
                                 onPressed: () {
-                                  Get.to( VehiclesEditScreen(),);
+                                  Get.to( AddVehicule(),);
                                 },
                                 child: Container(
                                   height: 80.h,

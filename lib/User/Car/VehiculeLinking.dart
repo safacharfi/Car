@@ -14,7 +14,7 @@ class VehicleController extends ChangeNotifier {
   final String _rpcUrl = "http://127.0.0.1:7545";
   final String _wsUrl = "ws://127.0.0.1:7545";
   final String _privateKey =
-      "0x0d20d82b62400c2ff4b2a5521da19ad8f79269df0bb380306c27b8f3faefbdf8";
+      "0xe59c78d88ac16fe3f56084938135e4ce9a4932b51f9fd3fbfed8ce78ab53b14f";
 
   late Web3Client _client;
   late String _abiCode;
